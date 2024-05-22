@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
-    
+    <header class="cabecalho">
+        <h1>Faça login no nosso site</h1>
+    </header>
+    <main>
+    <form class="formulario">
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" placeholder="Digite seu melhor e-mail!" required>
+ 
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+ 
+        <button type="submit">Enviar</button>
+        <p id="erro"></p>
+    </form>
+    </main>
+    <footer class="rodape">
+        <p>&copy; 2024 FIAP. Todos os direitos reservados.</p>
+        <p>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            <a href="#">Política de Privacidade</a>
+        </p>
+    </footer>
+    <script src="./js/login.js"></script>
 </body>
-</html>
+</html> 
