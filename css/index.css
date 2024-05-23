@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+.cabecalho {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #2295f3;
+    color: #FFFFFF;
+}
+ 
+.botao-logout {
+    background-color: #f80303;
+    border: none;
+    border-radius: 7px;
+    padding: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+ 
+.botao-logout:hover {
+    background-color: #dd0f0f;
+    transition: .4s;
+}
+ 
+.titulo-principal, .titulo-secundario, .titulo-terciario {
+    margin-top: 40px;
+}
+ 
+.paragrafo-principal, .paragrafo-secundario, .paragrafo-terciario {
+    margin-top: 10px;
+}
+ 
+body {
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+   
+}
+ 
+.conteudo-principal {
+    margin: 30px;
+    background-color: #ddd6d6e7;
+    padding: 20px;
+    height: 100vh;
+    border-radius: 20px;
+}
+ 
+.rodape {
+    background-color: #2295f3;
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF;
+}
+ 
+.rodape a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+ 
+.rodape a:hover {
+    color: purple;
+}
